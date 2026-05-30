@@ -27,6 +27,7 @@ export default defineUserConfig({
     navbar: [
       { text: "首页", link: "/" },
       { text: "开始", link: "/guide/" },
+      { text: "实战经验", link: "/lessons/" },
       { text: "方法论库", link: "/methodology/" },
       { text: "🚀 用上 AI 工具站", link: "https://wutuobangai.com" },
     ],
@@ -36,6 +37,16 @@ export default defineUserConfig({
         {
           text: "开始",
           children: ["/guide/README.md"],
+        },
+      ],
+      "/lessons/": [
+        {
+          text: "实战经验",
+          children: [
+            "/lessons/README.md",
+            "/lessons/status-200-not-alive.md",
+            "/lessons/dispatch-for-truth.md",
+          ],
         },
       ],
       "/methodology/": [
