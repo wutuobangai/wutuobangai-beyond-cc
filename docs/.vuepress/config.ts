@@ -24,8 +24,6 @@ export default defineUserConfig({
     repoLabel: "GitHub",
     docsDir: "docs",
 
-    iconAssets: "fontawesome-with-brands",
-
     navbar: [
       { text: "首页", link: "/" },
       { text: "开始", link: "/guide/" },
@@ -65,6 +63,10 @@ export default defineUserConfig({
     contributors: false,
 
     plugins: {
+      // 图标（fontawesome-with-brands）
+      icon: {
+        assets: "fontawesome-with-brands",
+      },
       // Ctrl+K 全文搜索
       slimsearch: {
         indexContent: true,
