@@ -71,7 +71,7 @@ AI 说：「token 不够了·要不要再派 agent？」
 ### 步骤 1·下载 hook
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/langliu409-eng/wutuobangai-beyond-cc/main/hooks/anti-reverse-pushback.sh \
+curl -fsSL https://raw.githubusercontent.com/wutuobangai/wutuobangai-beyond-cc/main/hooks/anti-reverse-pushback.sh \
   -o ~/.claude/hooks/anti-reverse-pushback.sh
 chmod +x ~/.claude/hooks/anti-reverse-pushback.sh
 ```
@@ -235,7 +235,7 @@ Next day I had AI write this hook · physically intercepts 17 escalation trigger
 ### Step 1 · Download hook
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/langliu409-eng/wutuobangai-beyond-cc/main/hooks/anti-reverse-pushback.sh \
+curl -fsSL https://raw.githubusercontent.com/wutuobangai/wutuobangai-beyond-cc/main/hooks/anti-reverse-pushback.sh \
   -o ~/.claude/hooks/anti-reverse-pushback.sh
 chmod +x ~/.claude/hooks/anti-reverse-pushback.sh
 ```

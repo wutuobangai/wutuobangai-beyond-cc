@@ -52,7 +52,7 @@ So the hook reverses it — AI proactively offers "light vs heavy" comparison ·
 
 ```bash
 mkdir -p ~/.claude/hooks
-curl -fsSL https://raw.githubusercontent.com/langliu409-eng/wutuobangai-beyond-cc/main/hooks/anti-reverse-pushback.sh \
+curl -fsSL https://raw.githubusercontent.com/wutuobangai/wutuobangai-beyond-cc/main/hooks/anti-reverse-pushback.sh \
   -o ~/.claude/hooks/anti-reverse-pushback.sh
 chmod +x ~/.claude/hooks/anti-reverse-pushback.sh
 ```

@@ -20,7 +20,7 @@ export default defineUserConfig({
     hostname: "https://cal.wutuobangai.com",
 
     author: { name: "乌托邦AI" },
-    repo: "langliu409-eng/wutuobangai-beyond-cc",
+    repo: "wutuobangai/wutuobangai-beyond-cc",
     repoLabel: "GitHub",
     docsDir: "docs",
 
