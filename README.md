@@ -155,7 +155,7 @@ AI：（读完 8 个文件后自动理解方法论 · 输出适配版）
 - verifier 独立核实的 prompt 模板
 - 派 agent 8 件套白名单
 - Memory 4 件套分类沉淀
-- 竞品对标 4 层挖法（已上线 → `docs/competitor-recon-method.md`）
+- 竞品对标 4 层挖法（已上线 → `docs/methodology/competitor-recon.md`）
 
 慢慢来·不抢热点·不装专家·只交付能复制的真东西。
 

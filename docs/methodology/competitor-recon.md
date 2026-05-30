@@ -187,7 +187,7 @@ grep -oiE '(resolution|aspectRatio|maxImages|quality)' /tmp/recon/bundle.js | so
 把这个文件扔给你的 AI（Claude / Codex / Cursor / ChatGPT 都行），说：
 
 ```
-读这个 competitor-recon-method.md
+读这个 competitor-recon.md
 然后帮我对标 https://对手网址.com
 4 层挖到底，出一份横向对比作战地图
 ```
@@ -275,7 +275,7 @@ What you're doing is essentially the same as opening DevTools Network tab — ju
 Hand this file to your AI (Claude / Codex / Cursor / ChatGPT):
 
 ```
-Read competitor-recon-method.md
+Read competitor-recon.md
 Then do competitor recon on https://target.com
 Dig all 4 layers, output a horizontal comparison battle map
 ```
