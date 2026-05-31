@@ -27,6 +27,7 @@ export default defineUserConfig({
 
     navbar: [
       { text: "首页", link: "/" },
+      { text: "0→1 之路", link: "/journey/" },
       {
         text: "一人公司架构",
         children: [
@@ -74,6 +75,12 @@ export default defineUserConfig({
             "/methodology/story.md",
             "/methodology/competitor-recon.md",
           ],
+        },
+      ],
+      "/journey/": [
+        {
+          text: "我的 0 → 1",
+          children: ["/journey/README.md"],
         },
       ],
       "/architecture/": [
