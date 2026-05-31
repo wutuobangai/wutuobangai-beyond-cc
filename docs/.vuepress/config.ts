@@ -27,10 +27,24 @@ export default defineUserConfig({
 
     navbar: [
       { text: "首页", link: "/" },
-      { text: "开始", link: "/guide/" },
+      {
+        text: "一人公司架构",
+        children: [
+          { text: "架构全貌", link: "/architecture/" },
+          { text: "13 个 AI 岗位", link: "/architecture/agents.html" },
+          { text: "工具栈 · 100+ Skill / 29 MCP", link: "/architecture/stack.html" },
+        ],
+      },
       { text: "实战经验", link: "/lessons/" },
       { text: "方法论库", link: "/methodology/" },
-      { text: "🚀 用上 AI 工具站", link: "https://wutuobangai.com" },
+      { text: "金句墙", link: "/quotes/" },
+      {
+        text: "我的产品",
+        children: [
+          { text: "AI 工具站 · AIGC 生成", link: "https://wutuobangai.com" },
+          { text: "课程站", link: "https://forms.wutuobangai.com" },
+        ],
+      },
     ],
 
     sidebar: {
@@ -60,6 +74,22 @@ export default defineUserConfig({
             "/methodology/story.md",
             "/methodology/competitor-recon.md",
           ],
+        },
+      ],
+      "/architecture/": [
+        {
+          text: "一人公司架构",
+          children: [
+            "/architecture/README.md",
+            "/architecture/agents.md",
+            "/architecture/stack.md",
+          ],
+        },
+      ],
+      "/quotes/": [
+        {
+          text: "金句墙",
+          children: ["/quotes/README.md"],
         },
       ],
     },
