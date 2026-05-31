@@ -40,11 +40,39 @@ hook 是给 Claude Code 装的，但**方法论谁都能拿走**。最简单的�
 
 > 下载整个仓库 → 扔给你的 AI（Codex / Cursor / ChatGPT）→ 让它读完自己适配。
 
-## 三条学习路径
+## 你是哪种人？照着这条路读
 
-1. **第一次用 AI**：先装上面这个 hook，感受「AI 反问你」是什么体验
-2. **想让 AI 别瞎烧钱**：读 [反向劝阻 SOP](/methodology/reverse-pushback.md)
-3. **想系统学一人公司方法论**：进 [方法论库](/methodology/)
+不用从头读到尾。对号入座，照着一条路走就行。
+
+### 🌱 第一次用 AI 的普通人
+
+不懂代码也没关系。按这个顺序，半天就能上手：
+
+1. 先装上面那个[反向劝阻 hook](#第一个就能用-反向劝阻-hook)，感受「AI 反问你」是什么体验
+2. 读我的 [0 → 1 之路](/journey/)：一个普通人，怎么一步步走过来的
+3. 读[反向劝阻 SOP](/methodology/reverse-pushback.md)：让 AI 别瞎烧你的钱
+
+> 想跳过折腾、直接用现成的 → [工具站按积分用](https://wutuobangai.com)
+
+### ⚙️ 已经在用 Claude Code / Codex，想省钱省心
+
+你会用了，缺的是「别让 AI 瞎跑」的章法：
+
+1. [反向劝阻机制](/methodology/reverse-pushback.md)：默认走轻流程，省真金白银
+2. [主席台模式](/methodology/chairman-mode.md)：让 AI 只调度不瞎施工
+3. [五件硬指标](/methodology/five-hard-metrics.md) + [实战案例库](/cases/)：照着抄
+
+> 想要现成的 hook 文件 → [GitHub 仓库](https://github.com/wutuobangai/wutuobangai-beyond-cc) 直接拿
+
+### 🏗️ 想搭一套自己的一人 AI 公司
+
+你要的是整套架构怎么搭起来：
+
+1. [我的 0 → 1 之路](/journey/)：从一台电脑到一家公司
+2. [一人公司架构全貌](/architecture/) → [13 个 AI 岗位](/architecture/agents.html) → [工具栈](/architecture/stack.html)
+3. [方法论库](/methodology/) + [实战案例库](/cases/)：把架构落到每一步
+
+> 想要有人带着搭、少踩坑 → [16 周陪跑课程](https://forms.wutuobangai.com)
 
 ---
 

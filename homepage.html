@@ -4,7 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Beyond CC · 乌托邦AI — 一个人 + 一群 AI</title>
-<meta name="description" content="30 岁不懂代码的普通人，用 AI 跑出了超越官方的方法论。227 条沉淀方法论、真实事故复盘的开源资料站。">
+<meta name="description" content="30 岁不懂代码的普通人，用 AI 跑出了超越官方的方法论。一个人 + 一群 AI（13 个协同岗位）把一家公司跑起来的真实复盘与开源方法论——一人 AI 公司怎么搭、AI 一个人怎么干。">
+<meta name="keywords" content="一人AI公司,AI一个人怎么干,普通人用AI,30岁转AI,中年人转AI,AI方法论,Claude Code,一人公司架构">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cal.wutuobangai.com/">
+<meta property="og:title" content="Beyond CC · 乌托邦AI — 一个人 + 一群 AI">
+<meta property="og:description" content="30 岁不懂代码的普通人，用 AI 跑出了超越官方的方法论。一个人 + 一群 AI 把一家公司真正跑起来的真实复盘。">
+<meta property="og:image" content="https://cal.wutuobangai.com/og-cover.png">
+<meta property="og:site_name" content="Beyond CC · 乌托邦AI">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Beyond CC · 乌托邦AI — 一个人 + 一群 AI">
+<meta name="twitter:description" content="30 岁不懂代码的普通人，用 AI 跑出了超越官方的方法论。">
+<meta name="twitter:image" content="https://cal.wutuobangai.com/og-cover.png">
+<link rel="canonical" href="https://cal.wutuobangai.com/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700;900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -113,6 +125,9 @@ nav .ghost{
 }
 nav .ghost:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 nav .ghost::after{display:none}
+.nav-toggle{display:none;background:var(--card);border:1px solid var(--hair-strong);border-radius:9px;width:40px;height:40px;cursor:pointer;align-items:center;justify-content:center;color:var(--ink);transition:border-color .25s,color .25s}
+.nav-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.nav-toggle svg{width:20px;height:20px}
 .nav-links{display:flex;align-items:center;gap:20px}
 /* 导航下拉（absolute·避开 header backdrop-filter 裁剪老坑·hover 桥防断）*/
 .nav-dd{position:relative;display:inline-flex;align-items:center}
@@ -244,13 +259,17 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
 
 /* ---------- 数字计数带 ---------- */
 .stats-band{background:var(--paper-warm);border-top:1px solid var(--hair);border-bottom:1px solid var(--hair)}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:clamp(20px,4vw,48px)}
+.stats{display:grid;grid-template-columns:repeat(5,1fr);gap:clamp(16px,2.6vw,32px)}
 .stat{position:relative;padding-left:22px}
 .stat::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:2px;background:var(--accent-line);border-radius:2px}
 .stat .num{font-family:var(--serif);font-weight:700;font-size:clamp(40px,6vw,68px);line-height:1;color:var(--ink);letter-spacing:-1px;display:flex;align-items:baseline}
 .stat .num .suffix{font-size:.42em;color:var(--accent);margin-left:4px;font-family:var(--mono);font-weight:500}
 .stat .lab{margin-top:12px;font-size:14px;color:var(--ink-soft);line-height:1.45}
 .stat .lab b{color:var(--ink);font-weight:500}
+a.stat{cursor:pointer;transition:transform .3s var(--ease)}
+a.stat:hover{transform:translateY(-3px)}
+a.stat:hover .num{color:var(--accent)}
+a.stat:hover .lab b{color:var(--accent)}
 
 /* ---------- 双入口大卡 ---------- */
 .cards2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:54px}
@@ -339,8 +358,19 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
   .lesson:nth-child(odd){padding-right:0}
 }
 @media(max-width:680px){
-  .nav-links{display:none}
-  nav .ghost{display:inline-flex}
+  .nav-toggle{display:inline-flex}
+  .nav-links{
+    display:none;position:absolute;top:60px;right:clamp(16px,5vw,40px);
+    flex-direction:column;align-items:stretch;gap:2px;min-width:210px;
+    background:var(--card);border:1px solid var(--hair);border-radius:14px;
+    box-shadow:var(--shadow-lift);padding:10px;
+  }
+  .nav-links.open{display:flex}
+  .nav-links>a,.nav-dd{padding:10px 14px;border-radius:8px;width:100%}
+  .nav-dd{flex-direction:column;align-items:stretch}
+  .nav-dd-menu{position:static;transform:none;opacity:1;visibility:visible;box-shadow:none;border:none;padding:2px 0 2px 14px;min-width:0;background:transparent}
+  .nav-dd:hover .nav-dd-menu{transform:none}
+  .nav-dd::after{display:none}
   .hero{padding-top:104px;min-height:92svh}
   h1{max-width:18ch}
   .ticker{font-size:15px;height:auto;flex-wrap:wrap}
@@ -387,6 +417,9 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         </span>
       </span>
     </span>
+    <button class="nav-toggle" aria-label="菜单" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
   </nav>
 </header>
 
@@ -426,24 +459,28 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
     <div class="kicker reveal">我的护城河</div>
     <h2 class="sec-title reveal" style="max-width:25ch;margin-bottom:50px">不是某个工具——是一整套被我一个人调教出来的多层架构 AI 系统。</h2>
     <div class="stats">
-      <div class="stat reveal">
+      <a class="stat reveal" href="/architecture/agents.html">
         <div class="num" data-to="13"><span class="val">0</span><span class="suffix">个</span></div>
         <div class="lab"><b>AI 协同岗位</b><br>一个人指挥一支 AI 团队</div>
-      </div>
-      <div class="stat reveal">
+      </a>
+      <a class="stat reveal" href="/skills/">
         <div class="num" data-to="100"><span class="val">0</span><span class="suffix">+</span></div>
         <div class="lab"><b>Skill 技能</b><br>把重复的活变成一句话</div>
-      </div>
-      <div class="stat reveal">
+      </a>
+      <a class="stat reveal" href="/architecture/stack.html">
         <div class="num" data-to="29"><span class="val">0</span><span class="suffix">个</span></div>
         <div class="lab"><b>MCP 工具</b><br>连数据库 / 浏览器 / 服务器 / 各平台</div>
-      </div>
-      <div class="stat reveal">
+      </a>
+      <a class="stat reveal" href="/architecture/">
         <div class="num" data-to="10000"><span class="val">0</span><span class="suffix">+</span></div>
         <div class="lab"><b>本地文件</b><br>上万份沉淀，AI 张口就带我的经验</div>
-      </div>
+      </a>
+      <a class="stat reveal" href="/journey/">
+        <div class="num" data-to="8"><span class="val">0</span><span class="suffix">个月</span></div>
+        <div class="lab"><b>从 0 到开公司</b><br>不懂代码，从头硬学上车</div>
+      </a>
     </div>
-    <p class="sec-sub reveal" style="margin-top:40px;max-width:64ch">底层是多层记忆架构 + 多个系统协同（主站 · 工具站 · 自动化工作流 · 知识库……），227 条方法论、41 篇事故复盘全在里面跑。<b style="color:var(--ink);font-weight:500">别人复制得了一句 prompt，复制不了这一整套。</b></p>
+    <p class="sec-sub reveal" style="margin-top:40px;max-width:64ch">底层是多层记忆架构 + 多个系统协同（主站 · 工具站 · 自动化工作流 · 知识库……），内部沉淀 227 条方法论、41 篇事故复盘，正持续脱敏开源中。<b style="color:var(--ink);font-weight:500">别人复制得了一句 prompt，复制不了这一整套。</b></p>
   </div>
 </section>
 
@@ -482,7 +519,7 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
 
     <div class="lessons">
       <div class="lesson reveal">
-        <span class="no">227</span>
+        <span class="no">01</span>
         <div class="body">
           <h4>主席台调度模式</h4>
           <p>我不下场施工，只做调度、说大白话、做验收。一句话进，一群 AI 端到端跑完出结果。</p>
@@ -490,7 +527,7 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         </div>
       </div>
       <div class="lesson reveal">
-        <span class="no">189</span>
+        <span class="no">02</span>
         <div class="body">
           <h4>200 OK ≠ 真的活着</h4>
           <p>后台显示正常、状态码 200，全站图片却是破的。第一动作永远是拉数据库真实字段，不是先怪缓存。</p>
@@ -498,7 +535,7 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         </div>
       </div>
       <div class="lesson reveal">
-        <span class="no">156</span>
+        <span class="no">03</span>
         <div class="body">
           <h4>反向劝阻机制</h4>
           <p>老板想升级流程时，AI 要敢说「这个不用搞那么重」。默认走轻流程，省的是真金白银。</p>
@@ -506,7 +543,7 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         </div>
       </div>
       <div class="lesson reveal">
-        <span class="no">103</span>
+        <span class="no">04</span>
         <div class="body">
           <h4>39 个文件被一锅改坏</h4>
           <p>批处理脚本不做单文件验证，一次炸了 39 个页面。50 秒回滚救场，从此立下「先测一个」铁律。</p>
@@ -514,7 +551,7 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         </div>
       </div>
       <div class="lesson reveal">
-        <span class="no">88</span>
+        <span class="no">05</span>
         <div class="body">
           <h4>竞品五层挖法</h4>
           <p>给一个对手网址，从截图一层层挖到它公开的数据库定价表，最后出一张作战地图。</p>
@@ -522,7 +559,7 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         </div>
       </div>
       <div class="lesson reveal">
-        <span class="no">62</span>
+        <span class="no">06</span>
         <div class="body">
           <h4>付费 API 偷烧 12 次</h4>
           <p>调试时 AI 自己把付费接口跑了 12 次，触发上游风控锁号。从此每一次烧钱前必须先报备。</p>
@@ -550,13 +587,14 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
       <p class="reveal">这套方法背后的 AI 工具，已经做成了按积分付费的工具站。不会配环境也能开始。</p>
       <div class="cta-row reveal">
         <a class="btn btn-primary" href="https://wutuobangai.com">去工具站，按积分用 <span class="arr">→</span></a>
-        <a class="btn btn-ghost" href="#">加微信，领免费资料</a>
+        <a class="btn btn-ghost" href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">加微信，领免费资料</a>
+        <a class="btn btn-text" href="https://forms.wutuobangai.com" target="_blank" rel="noopener">或报 16 周陪跑课 <span class="arr">→</span></a>
       </div>
     </div>
 
     <div class="footgrid">
       <div class="col-brand">
-        <a class="brand" href="#">
+        <a class="brand" href="/">
           <img class="logo-mark" src="/logo.png" alt="乌托邦AI 电路大脑" width="34" height="34">
           <span><b>Beyond CC</b> <span class="sub">· 乌托邦AI</span></span>
         </a>
@@ -566,19 +604,20 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
         <h5>资料站</h5>
         <a href="/lessons/">实战经验</a>
         <a href="/methodology/">方法论</a>
-        <a href="#story">为什么开源</a>
+        <a href="/methodology/why-beyond.html">为什么开源</a>
       </div>
       <div class="footcol">
         <h5>用起来</h5>
         <a href="https://wutuobangai.com">AI 工具站</a>
-        <a href="#">领免费资料</a>
-        <a href="#">加微信交流</a>
+        <a href="https://forms.wutuobangai.com" target="_blank" rel="noopener">16 周陪跑课程</a>
+        <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">领免费资料</a>
+        <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">加微信交流</a>
       </div>
       <div class="footcol">
         <h5>关于</h5>
         <a href="https://github.com/wutuobangai/wutuobangai-beyond-cc">GitHub 仓库</a>
-        <a href="#">更新日志</a>
-        <a href="#">联系阿浩</a>
+        <a href="https://github.com/wutuobangai/wutuobangai-beyond-cc/commits/main" target="_blank" rel="noopener">更新日志</a>
+        <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">联系阿浩</a>
       </div>
     </div>
 
@@ -809,6 +848,24 @@ section.band{position:relative;z-index:2;padding:clamp(72px,11vw,140px) clamp(20
   const onScroll = ()=>{ hd.classList.toggle('scrolled', window.scrollY>40); };
   window.addEventListener('scroll', onScroll, {passive:true});
   onScroll();
+})();
+
+/* ============================================================
+   5) 手机端汉堡菜单 toggle
+   ============================================================ */
+(function(){
+  const tgl = document.querySelector('.nav-toggle');
+  const links = document.querySelector('.nav-links');
+  if(!tgl || !links) return;
+  tgl.addEventListener('click', (e)=>{
+    e.stopPropagation();
+    const open = links.classList.toggle('open');
+    tgl.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  links.addEventListener('click', e=>{ if(e.target.tagName==='A') links.classList.remove('open'); });
+  document.addEventListener('click', e=>{
+    if(!links.contains(e.target) && !tgl.contains(e.target)) links.classList.remove('open');
+  });
 })();
 </script>
 </body>

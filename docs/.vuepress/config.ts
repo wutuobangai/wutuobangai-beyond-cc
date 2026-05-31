@@ -12,7 +12,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
-    ["meta", { name: "keywords", content: "Claude Code,Codex,AI 实战,普通人用 AI,反向劝阻,AI 方法论,一人公司" }],
+    ["meta", { name: "keywords", content: "一人AI公司,AI一个人怎么干,30岁转AI,中年人转AI,普通人用AI,普通人AI赚钱,AI入门,Claude Code,Codex,AI方法论,一人公司" }],
     ["meta", { name: "robots", content: "index,follow" }],
   ],
 
@@ -37,6 +37,7 @@ export default defineUserConfig({
         ],
       },
       { text: "实战经验", link: "/lessons/" },
+      { text: "实战案例", link: "/cases/" },
       { text: "方法论库", link: "/methodology/" },
       { text: "开源技能下载", link: "/skills/" },
       { text: "金句墙", link: "/quotes/" },
@@ -67,12 +68,34 @@ export default defineUserConfig({
           ],
         },
       ],
+      "/cases/": [
+        {
+          text: "实战案例库",
+          children: [
+            "/cases/README.md",
+            "/cases/dispatch-beats-guessing.md",
+            "/cases/reuse-dead-assets.md",
+            "/cases/verify-not-trust-selfreport.md",
+            "/cases/field-truth-over-ai.md",
+            "/cases/enforce-not-rely-on-discipline.md",
+            "/cases/componentize-edit-once.md",
+            "/cases/check-sync-chain-first.md",
+            "/cases/avoid-at-source.md",
+          ],
+        },
+      ],
       "/methodology/": [
         {
           text: "方法论库",
           children: [
             "/methodology/README.md",
             "/methodology/reverse-pushback.md",
+            "/methodology/chairman-mode.md",
+            "/methodology/thirty-second-sync.md",
+            "/methodology/five-hard-metrics.md",
+            "/methodology/no-ball-kicking.md",
+            "/methodology/closeout-15-steps.md",
+            "/methodology/clean-old-before-new.md",
             "/methodology/why-beyond.md",
             "/methodology/story.md",
             "/methodology/competitor-recon.md",
@@ -111,7 +134,7 @@ export default defineUserConfig({
 
     // 商业闭环钩子（codexguide 没有的超越点）
     footer:
-      '想直接用上 AI 不折腾？→ <a href="https://wutuobangai.com" target="_blank">工具站按积分用</a> · 加微信领免费资料包',
+      '想系统学这套打法 → <a href="https://forms.wutuobangai.com" target="_blank">16 周陪跑课程</a> · 想直接用 → <a href="https://wutuobangai.com" target="_blank">工具站按积分用</a> · <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank">加微信领免费资料</a>',
     displayFooter: true,
     copyright: "MIT Licensed | Copyright © 2026 乌托邦AI",
 
@@ -120,6 +143,19 @@ export default defineUserConfig({
     contributors: false,
 
     plugins: {
+      // SEO：内页自动 og:image + twitter card（首页 homepage.html 单独手补 head）
+      seo: {
+        fallBackImage: "https://cal.wutuobangai.com/og-cover.png",
+        ogp: (ogp) => ({
+          ...ogp,
+          "twitter:card": "summary_large_image",
+          "twitter:image:src": "https://cal.wutuobangai.com/og-cover.png",
+        }),
+      },
+      // sitemap 显式声明（配合百度/必应/Google 收录）
+      sitemap: {
+        changefreq: "weekly",
+      },
       // 图标（fontawesome-with-brands）
       icon: {
         assets: "fontawesome-with-brands",
