@@ -18,6 +18,7 @@ export default defineUserConfig({
 
   theme: hopeTheme({
     hostname: "https://cal.wutuobangai.com",
+    logo: "/logo.png",
 
     author: { name: "乌托邦AI" },
     repo: "wutuobangai/wutuobangai-beyond-cc",

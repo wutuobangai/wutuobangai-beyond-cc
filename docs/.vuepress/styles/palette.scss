@@ -1,0 +1,29 @@
+// 资料站内页统一首页 A · 浅色高级（暖白底 + 靛蓝 accent + 墨黑字）
+// 与 _homepage_demo_A.html 的 :root 色板对齐
+
+$theme-color: #4F46E5;
+
+$vp-c-bg: (
+  light: #FAF9F6,
+  dark: #1b1b1f,
+);
+$vp-c-bg-alt: (
+  light: #F4F2EC,
+  dark: #161618,
+);
+$vp-c-bg-elv: (
+  light: #FFFFFF,
+  dark: #202127,
+);
+$vp-c-text: (
+  light: #1A1A1A,
+  dark: rgb(235 235 245 / 86%),
+);
+$vp-c-border: (
+  light: #E6E3DB,
+  dark: #3c3f44,
+);
+$vp-c-divider: (
+  light: #ECEAE3,
+  dark: #2e2e32,
+);

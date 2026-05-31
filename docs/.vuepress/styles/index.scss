@@ -1,0 +1,34 @@
+/* ============================================================
+   资料站内页统一首页 A 的质感：正文 Inter，标题衬线 Noto Serif SC
+   暖白磨砂导航栏，呼应首页「活的网格·指挥官」
+   ============================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap");
+
+:root {
+  --vp-font-family-base: "Inter", -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+/* 内容标题用衬线，跟首页大标题一个味儿 */
+.vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc h4,
+.theme-hope-content h1, .theme-hope-content h2, .theme-hope-content h3,
+.vp-page-title, main h1, main h2, main h3,
+#main-content h1, #main-content h2, #main-content h3 {
+  font-family: "Noto Serif SC", "Songti SC", "STSong", serif !important;
+  letter-spacing: -0.3px;
+}
+
+/* 导航栏：暖白磨砂，呼应首页 A 顶栏 */
+.vp-navbar, .navbar {
+  background: rgba(250, 249, 246, 0.86) !important;
+  backdrop-filter: saturate(180%) blur(14px) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(14px) !important;
+}
+
+/* logo 圆角克制 + 轻投影，跟首页 logo-mark 一致 */
+.vp-navbar .vp-brand .logo, .navbar .brand .logo,
+.vp-navbar img.logo {
+  filter: drop-shadow(0 2px 8px rgba(79, 70, 229, 0.16));
+}
+
+/* 链接/强调 hover 用靛蓝 */
+.vp-doc a:hover { color: #4F46E5 !important; }
