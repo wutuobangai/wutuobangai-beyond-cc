@@ -38,11 +38,13 @@ export default defineUserConfig({
       },
       { text: "实战经验", link: "/lessons/" },
       { text: "方法论库", link: "/methodology/" },
+      { text: "开源技能下载", link: "/skills/" },
       { text: "金句墙", link: "/quotes/" },
       {
         text: "我的产品",
         children: [
-          { text: "AI 工具站 · AIGC 生成", link: "https://wutuobangai.com" },
+          { text: "AIGC 站（国内）", link: "https://wutuobangai.com" },
+          { text: "AI 工具站（海外）", link: "https://wutuobangai.top" },
           { text: "课程站", link: "https://forms.wutuobangai.com" },
         ],
       },
@@ -91,6 +93,12 @@ export default defineUserConfig({
             "/architecture/agents.md",
             "/architecture/stack.md",
           ],
+        },
+      ],
+      "/skills/": [
+        {
+          text: "开源技能下载",
+          children: ["/skills/README.md"],
         },
       ],
       "/quotes/": [
