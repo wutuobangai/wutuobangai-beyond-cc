@@ -28,7 +28,6 @@ export default defineUserConfig({
     navbar: [
       { text: "首页", link: "/" },
       { text: "0→1 之路", link: "/journey/" },
-      { text: "两条路", link: "/two-roads.html" },
       {
         text: "一人公司架构",
         children: [
