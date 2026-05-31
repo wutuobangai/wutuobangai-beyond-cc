@@ -396,7 +396,6 @@ a.stat:hover .lab b{color:var(--accent)}
   <nav>
     <span class="nav-links">
       <a href="/journey/">0→1 之路</a>
-      <a href="/start/">零基础上手</a>
       <span class="nav-dd">
         <span class="nav-dd-t">一人公司架构</span>
         <span class="nav-dd-menu">
@@ -405,7 +404,8 @@ a.stat:hover .lab b{color:var(--accent)}
           <a href="/architecture/stack.html">工具栈 · Skill / MCP</a>
         </span>
       </span>
-      <a href="/cases/">踩坑记录</a>
+      <a href="/lessons/">实战经验</a>
+      <a href="/cases/">实战案例</a>
       <a href="/methodology/">方法论库</a>
       <a href="/skills/">开源技能下载</a>
       <a href="/quotes/">金句墙</a>
@@ -446,8 +446,8 @@ a.stat:hover .lab b{color:var(--accent)}
   </div>
 
   <div class="cta-row">
-    <a class="btn btn-primary" href="/start/">零基础上手 <span class="arr">→</span></a>
-    <a class="btn btn-ghost" href="/cases/">看踩坑记录</a>
+    <a class="btn btn-primary" href="/lessons/">看实战经验 <span class="arr">→</span></a>
+    <a class="btn btn-ghost" href="/methodology/">读方法论</a>
     <a class="btn btn-text" href="https://wutuobangai.com">直接用上 AI 工具站</a>
   </div>
 
@@ -493,12 +493,12 @@ a.stat:hover .lab b{color:var(--accent)}
     <p class="sec-sub reveal">做代码的来看协同架构，做一人公司的来抄方法，不懂 AI 的从最痛的那条复盘开始读。</p>
 
     <div class="cards2">
-      <a class="bigcard reveal" href="/cases/">
+      <a class="bigcard reveal" href="/lessons/">
         <span class="idx">01 / FIELD NOTES</span>
         <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 5.5A1.5 1.5 0 014.5 4H10l2 2h7.5A1.5 1.5 0 0121 7.5v11A1.5 1.5 0 0119.5 20h-15A1.5 1.5 0 013 18.5z"/><path d="M7 13h7M7 16h5"/></svg></span>
-        <h3>看踩坑记录</h3>
+        <h3>看实战经验</h3>
         <p>真实事故现场：39 个文件被一锅改坏、200 OK 却全站破图、付费 API 偷烧 12 次……每一篇都有根因、修复命令、和下次怎么躲。</p>
-        <span class="go">进踩坑库 <span class="arr">→</span></span>
+        <span class="go">进事故库 <span class="arr">→</span></span>
       </a>
 
       <a class="bigcard reveal" href="/methodology/">
@@ -603,9 +603,8 @@ a.stat:hover .lab b{color:var(--accent)}
       </div>
       <div class="footcol">
         <h5>资料站</h5>
-        <a href="/start/">零基础上手</a>
-        <a href="/cases/">踩坑记录</a>
-        <a href="/methodology/">方法论库</a>
+        <a href="/lessons/">实战经验</a>
+        <a href="/methodology/">方法论</a>
         <a href="/methodology/why-beyond.html">为什么开源</a>
       </div>
       <div class="footcol">
