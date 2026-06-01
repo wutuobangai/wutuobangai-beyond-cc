@@ -13,7 +13,6 @@ const pitfallSidebar = [
   },
   {
     text: "实战案例 · 照着做",
-    collapsible: true,
     children: [
       "/cases/README.md",
       "/cases/dispatch-beats-guessing.md",
@@ -79,10 +78,36 @@ export default defineUserConfig({
 
     sidebar: {
       "/guide/": [
-        { text: "开始", children: ["/guide/README.md"] },
+        {
+          text: "开始",
+          children: ["/guide/README.md"],
+        },
+      ],
+      "/lessons/": pitfallSidebar,
+      "/cases/": pitfallSidebar,
+      "/methodology/": [
+        {
+          text: "方法论库",
+          children: [
+            "/methodology/README.md",
+            "/methodology/reverse-pushback.md",
+            "/methodology/chairman-mode.md",
+            "/methodology/thirty-second-sync.md",
+            "/methodology/five-hard-metrics.md",
+            "/methodology/no-ball-kicking.md",
+            "/methodology/closeout-15-steps.md",
+            "/methodology/clean-old-before-new.md",
+            "/methodology/why-beyond.md",
+            "/methodology/story.md",
+            "/methodology/competitor-recon.md",
+          ],
+        },
       ],
       "/journey/": [
-        { text: "我的 0 → 1", children: ["/journey/README.md"] },
+        {
+          text: "我的 0 → 1",
+          children: ["/journey/README.md"],
+        },
       ],
       "/start/": [
         { text: "学习路线", link: "/start/README.md" },
@@ -132,31 +157,17 @@ export default defineUserConfig({
           ],
         },
       ],
-      "/methodology/": [
+      "/skills/": [
         {
-          text: "方法论库",
-          children: [
-            "/methodology/README.md",
-            "/methodology/reverse-pushback.md",
-            "/methodology/chairman-mode.md",
-            "/methodology/thirty-second-sync.md",
-            "/methodology/five-hard-metrics.md",
-            "/methodology/no-ball-kicking.md",
-            "/methodology/closeout-15-steps.md",
-            "/methodology/clean-old-before-new.md",
-            "/methodology/why-beyond.md",
-            "/methodology/story.md",
-            "/methodology/competitor-recon.md",
-          ],
+          text: "开源技能下载",
+          children: ["/skills/README.md"],
         },
       ],
-      "/lessons/": pitfallSidebar,
-      "/cases/": pitfallSidebar,
-      "/skills/": [
-        { text: "开源技能下载", children: ["/skills/README.md"] },
-      ],
       "/quotes/": [
-        { text: "金句墙", children: ["/quotes/README.md"] },
+        {
+          text: "金句墙",
+          children: ["/quotes/README.md"],
+        },
       ],
     },
 
