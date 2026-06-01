@@ -45,16 +45,11 @@ Claude Code（Anthropic 出的）和 Codex（OpenAI 出的），本质是**同�
   </div>
 </section>
 
-## 四步路线（照着走，别跳级）
+## 怎么走？我把整条路做成了一张「闯关地图」
 
-| 阶段 | 你要达成的 | 大白话 |
-|---|---|---|
-| ① **装上车** | 装好工具 + 第一次让它说话 | 在你电脑里把它跑起来 |
-| ② **跑通第一个任务** | 让它真帮你干成一件事 | 从"会聊"到"会干活" |
-| ③ **立规矩** | 写一份"我是谁、我的规矩"给它 | 让它越用越懂你（CLAUDE.md / AGENTS.md）|
-| ④ **往上走** | 接工具、配技能、多任务 | 这就跨进「一个人指挥一群 AI」那条路了 |
+不懂代码的人最怕的，不是难，是**"不知道下一步该干嘛"**。
 
-> 前两步是**人人都该会**的，装好就能用；到第 ③④ 步，你就开始往「一人公司」那条更深的路上走——那是另一段旅程（想深入 → 看 [0→1 之路](/journey/) 和 [一人公司架构](/architecture/)）。
+所以我没给你列一堆章节，而是把这条路拆成了 **6 关 + 1 个补给站**——从"把它装进电脑"，到"它开始懂你"。**每过一关，你就实打实多会一样东西。** 照着闯，别跳级，下面就是这张地图 👇
 
 ## 新手推荐路径
 
@@ -73,28 +68,81 @@ Claude Code（Anthropic 出的）和 Codex（OpenAI 出的），本质是**同�
 - ✅ 每个卡点都标**真实踩坑**（我当年就栽这儿）
 - ✅ 不藏私、不卖关子、全免费
 
-## 教程目录
+## 🗺️ 闯关地图
 
-> 跟着这个顺序走：从装上车，到上手干活，到立规矩往上走。一步一步来，不跳级。
+<div style="margin:24px 0">
 
-**第一步 · 入门准备**
-- [装 Claude Code（Mac / Windows 手把手）](/start/install-claude-code.html)
-- [装 Codex（Mac / Windows 手把手）](/start/install-codex.html)
-- [订阅与付费：到底要花哪些钱](/start/subscribe-and-pay.html)
-- [跑通你的第一个任务](/start/first-task.html)
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #16a34a;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">🏁 新手村 · 出发前看一眼</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">先搞懂 Claude Code / Codex 到底是个啥、有几个入口——心里有数，再上路。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/" style="font-size:13px;color:#16a34a;background:#f0fdf4;border:1px solid #bbf7d0;border-radius:8px;padding:5px 11px;text-decoration:none">本页就是 · 往下看 ↓</a>
+  </div>
+</div>
 
-**第二步 · 日常工作流**
-- [让它帮你改东西（不慌、能撤回）](/start/let-it-edit.html)
-- [权限与安全：哪些该放手、哪些要拦住](/start/permissions-safety.html)
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #4F46E5;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">🎮 第 1 关 · 把家伙装进电脑</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">通关后你会：在自己电脑里，把 AI 干活搭子真正跑起来。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/install-claude-code.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">装 Claude Code →</a>
+    <a href="/start/install-codex.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">装 Codex →</a>
+  </div>
+</div>
 
-**第三步 · CLI 与 IDE**
-- [CLI 安装与登录](/start/cli-login.html)
-- [在 VS Code 里用](/start/vscode.html)
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #4F46E5;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">🎫 第 2 关 · 办通行证</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">通关后你会：账号登上、清楚要花哪些钱，从此能正经用了。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/subscribe-and-pay.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">订阅与付费 →</a>
+    <a href="/start/cli-login.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">CLI 安装与登录 →</a>
+  </div>
+</div>
 
-**第四步 · 进阶与团队**
-- [写你的第一份"规矩"：CLAUDE.md / AGENTS.md](/start/memory-rules.html)
-- [给 AI 配"装备"：MCP 与技能](/start/mcp-skills.html)
-- [排障手册：卡住了怎么自救](/start/troubleshooting.html)
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #4F46E5;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">⚡ 第 3 关 · 第一次使唤它</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">通关后你会：让它真帮你干成一件事——"卧槽它真能干活"的那一下。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/first-task.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">跑通第一个任务 →</a>
+    <a href="/start/let-it-edit.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">让它帮你改东西 →</a>
+  </div>
+</div>
+
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #4F46E5;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">🛡️ 第 4 关 · 踩住刹车</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">通关后你会：它能改你的文件，但你随时撤得回、拦得住——心里不慌。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/permissions-safety.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">权限与安全 →</a>
+  </div>
+</div>
+
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #4F46E5;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">📜 第 5 关 · 给它立规矩</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">通关后你会：写一份"我是谁、我的规矩"给它，它越用越懂你。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/memory-rules.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">写第一份 CLAUDE.md / AGENTS.md →</a>
+  </div>
+</div>
+
+<div style="background:#fff;border:1px solid #ece7df;border-left:4px solid #4F46E5;border-radius:12px;padding:16px 20px;margin-bottom:12px;box-shadow:0 1px 3px rgba(0,0,0,.04)">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">🧰 第 6 关 · 配齐装备</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">通关后你会：给它接上更多能力——贴着文件干活、装上各种工具。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/vscode.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">在 VS Code 里用 →</a>
+    <a href="/start/mcp-skills.html" style="font-size:13px;color:#4F46E5;background:#f4f3ff;border:1px solid #e0ddff;border-radius:8px;padding:5px 11px;text-decoration:none">MCP 与技能 →</a>
+  </div>
+</div>
+
+<div style="background:#fffbeb;border:1px solid #fde68a;border-left:4px solid #d97706;border-radius:12px;padding:16px 20px;margin-bottom:12px">
+  <div style="font-size:15.5px;font-weight:700;color:#1c1917;margin-bottom:3px">🆘 补给站 · 卡住了随时回来</div>
+  <div style="font-size:12.5px;color:#a8a29e;margin-bottom:11px">任何一关卡住、报错、跑不动——别硬扛，回这儿自救。</div>
+  <div style="display:flex;flex-wrap:wrap;gap:8px">
+    <a href="/start/troubleshooting.html" style="font-size:13px;color:#d97706;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;padding:5px 11px;text-decoration:none">排障手册 →</a>
+  </div>
+</div>
+
+</div>
+
+> 🏆 **闯到最后**：这 6 关走完，你就从"会用 AI"迈进了「一个人指挥一群 AI」那条更深的路——那是另一段旅程（想深入 → [0→1 之路](/journey/) 和 [一人公司架构](/architecture/)；想有人带着少踩坑 → [16 周陪跑课程](https://forms.wutuobangai.com)）。
 
 ---
 

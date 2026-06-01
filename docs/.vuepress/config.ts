@@ -38,6 +38,9 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   head: [
+    // favicon：全局声明，保证每个内页 tab 都有图标（不声明则浏览器默认要 /favicon.ico → SPA 兜底吐 HTML → 默认地球）
+    ["link", { rel: "icon", type: "image/png", href: "/favicon.png" }],
+    ["link", { rel: "shortcut icon", type: "image/png", href: "/favicon.png" }],
     ["meta", { name: "keywords", content: "一人AI公司,AI一个人怎么干,30岁转AI,中年人转AI,普通人用AI,普通人AI赚钱,AI入门,Claude Code,Codex,AI方法论,一人公司" }],
     ["meta", { name: "robots", content: "index,follow" }],
   ],
@@ -84,40 +87,59 @@ export default defineUserConfig({
       "/journey/": [
         { text: "我的 0 → 1", children: ["/journey/README.md"] },
       ],
+      // 闯关地图：新手村 + 6 关 + 补给站（每关 = 一个「我现在会了 X」的通关点）
       "/start/": [
-        { text: "学习路线", link: "/start/README.md" },
+        { text: "🏁 新手村 · 学习路线", link: "/start/README.md" },
         {
-          text: "入门准备",
+          text: "🎮 第 1 关 · 装上家伙",
           collapsible: true,
           children: [
             { text: "装 Claude Code", link: "/start/install-claude-code.md" },
             { text: "装 Codex", link: "/start/install-codex.md" },
-            { text: "订阅与付费", link: "/start/subscribe-and-pay.md" },
-            { text: "第一个任务", link: "/start/first-task.md" },
           ],
         },
         {
-          text: "日常工作流",
+          text: "🎫 第 2 关 · 办通行证",
           collapsible: true,
           children: [
-            { text: "让它改东西", link: "/start/let-it-edit.md" },
+            { text: "订阅与付费", link: "/start/subscribe-and-pay.md" },
+            { text: "CLI 安装与登录", link: "/start/cli-login.md" },
+          ],
+        },
+        {
+          text: "⚡ 第 3 关 · 第一次使唤",
+          collapsible: true,
+          children: [
+            { text: "跑通第一个任务", link: "/start/first-task.md" },
+            { text: "让它帮你改东西", link: "/start/let-it-edit.md" },
+          ],
+        },
+        {
+          text: "🛡️ 第 4 关 · 踩住刹车",
+          collapsible: true,
+          children: [
             { text: "权限与安全", link: "/start/permissions-safety.md" },
           ],
         },
         {
-          text: "CLI 与 IDE",
+          text: "📜 第 5 关 · 给它立规矩",
           collapsible: true,
           children: [
-            { text: "CLI 安装与登录", link: "/start/cli-login.md" },
-            { text: "在 VS Code 用", link: "/start/vscode.md" },
+            { text: "写第一份 CLAUDE.md / AGENTS.md", link: "/start/memory-rules.md" },
           ],
         },
         {
-          text: "进阶与团队",
+          text: "🧰 第 6 关 · 配齐装备",
           collapsible: true,
           children: [
-            { text: "立规矩 CLAUDE.md", link: "/start/memory-rules.md" },
+            { text: "在 VS Code 里用", link: "/start/vscode.md" },
             { text: "MCP 与技能", link: "/start/mcp-skills.md" },
+          ],
+        },
+        {
+          text: "🆘 补给站 · 卡住自救",
+          collapsible: true,
+          children: [
             { text: "排障手册", link: "/start/troubleshooting.md" },
           ],
         },
