@@ -46,13 +46,38 @@ date: 2026-05-31
 
 ---
 
+## 🔍 防幻觉护栏 hook（逼 AI 先搜本地再开口）
+
+**解决什么**：AI 最贵的翻车不是"它不会"，是**"它以为它会"**——你问"咱不是早就搞过 X 吗"，它不去翻仓库，张口就给你编一个。
+
+**这个 hook 干什么**：盯你的话里两种信号——①过去时/拍板（"我们决定…"/"上次…"/"didn't we build…"）→ 提醒 AI **先翻决策记录/记忆**再答；②动手祈使（"帮我做个…"/"build me a…"）→ 提醒 AI **先搜本地 SOP/模板**再动手。规则正则、不调 LLM、不烧 token、永不阻断，每会话每组最多提醒一次。
+
+**怎么装**（3 步）：
+
+1. 下载 `hooks/anti-hallucination-prompt-guard.sh`，丢进 `~/.claude/hooks/`，`chmod +x`
+2. 改脚本顶部 `CONFIG` 块的 3 个路径变量，指向你自己的项目
+3. 在 `settings.json` 挂上（见 [`examples/settings.json.example`](https://github.com/wutuobangai/wutuobangai-beyond-cc/blob/main/examples/settings.json.example)）
+
+**文件在这**：
+
+| 文件 | 作用 |
+|---|---|
+| `hooks/anti-hallucination-prompt-guard.sh` | hook 主脚本 |
+| `hooks/anti-hallucination-prompt-guard.README.md` | 怎么装 + 怎么调 + 局限 |
+| `examples/settings.json.example` | 怎么挂到配置里 |
+
+👉 **全部在开源仓库**：[github.com/wutuobangai/wutuobangai-beyond-cc](https://github.com/wutuobangai/wutuobangai-beyond-cc)（点 `hooks/` 文件夹直接拿）
+
+> 老实说：它是**粗启发式**，会偶尔漏报/误报——我在 README 里诚实标了局限。重点不是完美识别意图，是把"先搜再答"变成不要钱的默认动作。
+
+---
+
 ## 🔜 在路上
 
 我自己天天在用的还有一批，正按批次脱敏开源：
 
 | 技能 | 预计 |
 |---|---|
-| 防幻觉护栏 hook | 🔜 近期 |
 | 主席台调度规则 | 🔜 近期 |
 | 竞品对标五层挖法 | 🔜 排队中 |
 | 收口沉淀清单 | 🔜 排队中 |

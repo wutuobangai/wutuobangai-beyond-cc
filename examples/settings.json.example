@@ -1,10 +1,10 @@
 {
-  "_comment": "Example settings.json for Claude Code with anti-reverse-pushback hook installed",
+  "_comment": "Example settings.json for Claude Code with beyond-cc hooks installed. Both hooks below are UserPromptSubmit hooks and run happily together. Merge the 'hooks' block into your own ~/.claude/settings.json.",
   "_install_steps": [
-    "1. Copy hooks/anti-reverse-pushback.sh to ~/.claude/hooks/",
-    "2. chmod +x ~/.claude/hooks/anti-reverse-pushback.sh",
+    "1. Copy the hook scripts from hooks/ to ~/.claude/hooks/",
+    "2. chmod +x ~/.claude/hooks/*.sh",
     "3. Merge the 'hooks' block below into your ~/.claude/settings.json",
-    "4. Restart Claude Code (claude restart or quit GUI and reopen)"
+    "4. Restart Claude Code (claude restart, or quit the GUI and reopen)"
   ],
   "hooks": {
     "UserPromptSubmit": [
@@ -12,8 +12,13 @@
         "hooks": [
           {
             "type": "command",
+            "command": "~/.claude/hooks/anti-hallucination-prompt-guard.sh",
+            "_comment": "Nudges the AI to search local context BEFORE answering (past-tense phrasing) or acting (imperative phrasing)"
+          },
+          {
+            "type": "command",
             "command": "~/.claude/hooks/anti-reverse-pushback.sh",
-            "_comment": "Stage-10 reverse pushback · intercepts 17 escalation triggers · injects light-vs-heavy comparison prompt"
+            "_comment": "Intercepts escalation triggers and injects a light-vs-heavy comparison prompt before the AI runs the heavy path"
           }
         ]
       }
