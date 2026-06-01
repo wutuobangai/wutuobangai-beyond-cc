@@ -71,7 +71,7 @@ export default defineUserConfig({
       { text: "开源技能下载", link: "/skills/" },
       { text: "金句墙", link: "/quotes/" },
       {
-        text: "我的产品",
+        text: "我的其他网站",
         children: [
           { text: "AIGC 站（国内）", link: "https://wutuobangai.com" },
           { text: "AI 工具站（海外）", link: "https://wutuobangai.top" },
