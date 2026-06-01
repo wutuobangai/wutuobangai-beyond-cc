@@ -43,6 +43,8 @@ export default defineUserConfig({
     ["link", { rel: "shortcut icon", type: "image/png", href: "/favicon.png" }],
     ["meta", { name: "keywords", content: "一人AI公司,AI一个人怎么干,30岁转AI,中年人转AI,普通人用AI,普通人AI赚钱,AI入门,Claude Code,Codex,AI方法论,一人公司" }],
     ["meta", { name: "robots", content: "index,follow" }],
+    // KF-FLOAT-BEYONDCC-20260601 企业客服浮窗（右下角·跳企微客服）· 内页全站注入
+    ["script", { src: "/kf-float.js", defer: "" }],
   ],
 
   theme: hopeTheme({
