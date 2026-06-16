@@ -11,6 +11,7 @@ icon: book
 
 | 方法论 | 一句话 | 状态 |
 |---|---|---|
+| [当最强 AI 被关停，我留下了它的工作手艺](./distill-model-working-style.md) | 模型会消失，但「怎么干活」能行为蒸馏下来 | ✅ |
 | [反向劝阻 hook](./reverse-pushback.md) | 让 AI 先问你「轻还是重」再干活 | ✅ |
 | [主席台模式](./chairman-mode.md) | 只调度、说大白话、做验收，不亲自施工 | ✅ |
 | [接令 30 秒同步五件事](./thirty-second-sync.md) | 我懂了 / 能不能做 / 耗时 / 兜底 / 默认开干 | ✅ |

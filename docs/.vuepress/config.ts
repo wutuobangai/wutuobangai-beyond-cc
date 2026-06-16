@@ -161,6 +161,7 @@ export default defineUserConfig({
           text: "方法论库",
           children: [
             "/methodology/README.md",
+            "/methodology/distill-model-working-style.md",
             "/methodology/reverse-pushback.md",
             "/methodology/chairman-mode.md",
             "/methodology/thirty-second-sync.md",
