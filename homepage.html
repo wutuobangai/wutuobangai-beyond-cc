@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- 修改记录：2026-07-04 · Codex · 新增 Fuck Claude 开源项目入口。 -->
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -271,8 +272,8 @@ a.stat:hover{transform:translateY(-3px)}
 a.stat:hover .num{color:var(--accent)}
 a.stat:hover .lab b{color:var(--accent)}
 
-/* ---------- 双入口大卡 ---------- */
-.cards2{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:54px}
+/* ---------- 三入口大卡 ---------- */
+.cards2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:54px}
 .bigcard{
   position:relative;overflow:hidden;
   background:var(--card);border:1px solid var(--hair);border-radius:20px;
@@ -408,6 +409,7 @@ a.stat:hover .lab b{color:var(--accent)}
       <a href="/cases/">踩坑记录</a>
       <a href="/methodology/">方法论库</a>
       <a href="/skills/">开源技能下载</a>
+      <a href="/projects/">开源项目</a>
       <a href="/quotes/">金句墙</a>
       <span class="nav-dd">
         <span class="nav-dd-t">我的其他网站</span>
@@ -485,10 +487,10 @@ a.stat:hover .lab b{color:var(--accent)}
   </div>
 </section>
 
-<!-- ===================== 双入口 ===================== -->
+<!-- ===================== 三入口 ===================== -->
 <section class="band" id="work">
   <div class="wrap">
-    <div class="kicker reveal">两条路 · 各取所需</div>
+    <div class="kicker reveal">三条路 · 各取所需</div>
     <h2 class="sec-title reveal">不教你写代码，<br>教你怎么把 AI 真正用起来。</h2>
     <p class="sec-sub reveal">做代码的来看协同架构，做一人公司的来抄方法，不懂 AI 的从最痛的那条复盘开始读。</p>
 
@@ -507,6 +509,14 @@ a.stat:hover .lab b{color:var(--accent)}
         <h3>读方法论</h3>
         <p>一个人怎么指挥 13 个 AI 岗位协同、主席台调度模式、反向劝阻机制、竞品五层挖法——可复制的工作架构，不是空泛的理念。</p>
         <span class="go">读架构 <span class="arr">→</span></span>
+      </a>
+
+      <a class="bigcard reveal" href="/projects/fuck-claude.html">
+        <span class="idx">03 / OPEN SOURCE</span>
+        <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></span>
+        <h3>玩开源项目</h3>
+        <p>Fuck Claude：真实扫描浏览器可见环境信号，带逐项动画、声音、手机适配和匿名完成人数计数。源码与线上演示一起公开。</p>
+        <span class="go">打开项目 <span class="arr">→</span></span>
       </a>
     </div>
   </div>
@@ -606,6 +616,7 @@ a.stat:hover .lab b{color:var(--accent)}
         <a href="/start/">零基础上手</a>
         <a href="/cases/">踩坑记录</a>
         <a href="/methodology/">方法论库</a>
+        <a href="/projects/">开源项目</a>
         <a href="/methodology/why-beyond.html">为什么开源</a>
       </div>
       <div class="footcol">

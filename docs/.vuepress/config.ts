@@ -71,6 +71,7 @@ export default defineUserConfig({
       { text: "踩坑记录", link: "/cases/" },
       { text: "方法论库", link: "/methodology/" },
       { text: "开源技能下载", link: "/skills/" },
+      { text: "开源项目", link: "/projects/" },
       { text: "金句墙", link: "/quotes/" },
       {
         text: "我的其他网站",
@@ -179,6 +180,15 @@ export default defineUserConfig({
       "/cases/": pitfallSidebar,
       "/skills/": [
         { text: "开源技能下载", children: ["/skills/README.md"] },
+      ],
+      "/projects/": [
+        {
+          text: "开源项目",
+          children: [
+            "/projects/README.md",
+            "/projects/fuck-claude.md",
+          ],
+        },
       ],
       "/quotes/": [
         { text: "金句墙", children: ["/quotes/README.md"] },
