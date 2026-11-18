@@ -45,6 +45,8 @@ export default defineUserConfig({
     ["meta", { name: "robots", content: "index,follow" }],
     // KF-FLOAT-BEYONDCC-20260601 企业客服浮窗（右下角·跳企微客服）· 内页全站注入
     ["script", { src: "/kf-float.js", defer: "" }],
+    // 右上角铃铛：本站更新提醒（数据 /bell-data.js）
+    ["script", { src: "/bell.js?v=20261118", defer: "" }],
   ],
 
   theme: hopeTheme({
