@@ -1,6 +1,28 @@
 # wutuobangai-beyond-cc
 
-> 30 岁不懂代码的普通人 · 用 Claude Code 跑出了超越 Anthropic 的方法论
+> 一人公司（OPC）开源分享站 · 2026 年 5 月起公开记录
+>
+> 阿浩的一人公司工作记录：公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。
+
+[打开资料站](https://cal.wutuobangai.com) · [更新日志](https://cal.wutuobangai.com/changelog/)
+
+## 11 月版现在怎么干
+
+- [两个 AI 分工](https://cal.wutuobangai.com/methodology/two-ai-division.html)：一个干活、一个验活：Claude 审核上线，Codex 按单施工。
+- [两个 AI，一套规矩](https://cal.wutuobangai.com/methodology/one-rulebook-two-ais.html)：共用开工须知、记忆库和教训索引，减少两边口径打架。
+- [分级授权红线](https://cal.wutuobangai.com/methodology/red-lines-tiered-authorization.html)：查资料、改本地文件、对外操作，分别确认边界。
+- [教训索引与踩坑技能](https://cal.wutuobangai.com/methodology/lesson-index-and-pitfall-skills.html)：索引负责找，正文保留证据，技能提醒该怎么做。
+- [三本账](https://cal.wutuobangai.com/methodology/three-ledgers.html)：改动记录记改了什么，状态表记现在怎样，补丁编号记一次修复怎么追。
+- [监控用脚本，不用 AI](https://cal.wutuobangai.com/methodology/monitor-with-scripts-not-ai.html)：固定检查交给脚本，有异常再让 AI 查原因。
+- [新 AI 入职考试](https://cal.wutuobangai.com/methodology/ai-onboarding-exam.html)：读过规矩不算会，用场景题检查能否守住边界。
+- [AI 要评判老板](https://cal.wutuobangai.com/methodology/judge-the-boss.html)：方案有问题就说清理由和更好的办法，拍板后照做。
+- [讨论不等于执行](https://cal.wutuobangai.com/methodology/discuss-is-not-execute.html)：问可不可行先分析，明确授权后才动手。
+
+## 5 月版（历史）
+
+> 原标语：30 岁不懂代码的普通人 · 用 Claude Code 跑出了超越 Anthropic 的方法论
+
+以下保留最初的 Why BEYOND 时间差表、反向劝阻案例与安装说明。它们记录的是当时的做法与判断；现在的工作方式先看上面的 11 月版。反向劝阻 hook 仍可照下面的步骤安装使用。
 
 [English version below ↓]
 
@@ -169,6 +191,14 @@ AI：（读完 8 个文件后自动理解方法论 · 输出适配版）
 ---
 
 # English Version
+
+An open-source record of Ahao’s one-person company, shared since May 2026: how I divide work between AIs, verify results, and change the process after mistakes.
+
+[November 2026 edition](https://cal.wutuobangai.com) · [Changelog](https://cal.wutuobangai.com/changelog/)
+
+## May edition (historical)
+
+The comparison, incident and setup notes below are the original May 2026 account. The anti-pushback hook still installs as described.
 
 ## Why "BEYOND"?
 

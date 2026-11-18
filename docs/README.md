@@ -2,7 +2,8 @@
 home: true
 title: 首页
 heroText: Beyond CC
-tagline: 30 岁不懂代码的普通人 · 用 AI 跑出超越官方的方法论
+tagline: 阿浩的一人公司工作记录：公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。
+description: 一人公司（OPC）开源分享站 · 2026 年 5 月起公开记录。阿浩的一人公司工作记录：公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。
 actions:
   - text: 从这里开始 →
     link: /guide/
@@ -17,7 +18,7 @@ actions:
     type: default
 
 highlights:
-  - header: 这个站给谁看
+  - header: 5 月版内容（历史）
     description: 不懂代码、但想用 AI 真正跑活的普通人
     features:
       - title: 反向劝阻 hook
@@ -34,6 +35,25 @@ highlights:
 
 copyright: false
 ---
+
+# 一人公司（OPC）开源分享站 · 2026 年 5 月起公开记录
+
+阿浩的一人公司工作记录：公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。
+
+## 11 月版：现在怎么干
+
+一个干活、一个验活：Claude 审核上线，Codex 按单施工。两个 AI 共用一套规矩，按任务叫 10 个帮手角色。
+
+- [两个 AI 分工](/methodology/two-ai-division.md) · [两个 AI，一套规矩](/methodology/one-rulebook-two-ais.md)
+- [分级授权红线](/methodology/red-lines-tiered-authorization.md) · [讨论不等于执行](/methodology/discuss-is-not-execute.md)
+- [教训索引与踩坑技能](/methodology/lesson-index-and-pitfall-skills.md) · [三本账](/methodology/three-ledgers.md)
+- [监控用脚本，不用 AI](/methodology/monitor-with-scripts-not-ai.md) · [新 AI 入职考试](/methodology/ai-onboarding-exam.md) · [AI 要评判老板](/methodology/judge-the-boss.md)
+
+[看 11 月版架构](/architecture/) · [更新日志](/changelog/)
+
+## 5 月版（历史）
+
+下面是 5 月写的原文，留着让你看见这套东西是怎么变过来的。
 
 ## 痛点驱动，不是文档驱动
 

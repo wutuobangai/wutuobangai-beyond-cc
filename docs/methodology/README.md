@@ -9,6 +9,24 @@ icon: book
 
 ## 已上线
 
+### 11 月版
+
+| 方法论 | 一句话 | 版本 |
+|---|---|---|
+| [两个 AI 分工](./two-ai-division.md) | 一个干活、一个验活：Claude 审核上线，Codex 按单施工 | 11 月版 |
+| [一份规矩两个 AI 共用](./one-rulebook-two-ais.md) | 规矩只写一份，两个 AI 从同一个地方读 | 11 月版 |
+| [分级授权](./red-lines-tiered-authorization.md) | 能撤回的放手做到底，撤不回的必须我点头 | 11 月版 |
+| [教训索引与踩坑技能](./lesson-index-and-pitfall-skills.md) | 教训别让 AI 全背：编号找路，碰到才读 | 11 月版 |
+| [三本账](./three-ledgers.md) | AI 改了什么、现在怎样、怎么退回，一查就知道 | 11 月版 |
+| [监控用脚本，不用 AI](./monitor-with-scripts-not-ai.md) | 让 AI 盯了一夜，烧掉三成周额度之后定的规矩 | 11 月版 |
+| [新 AI 入职考试](./ai-onboarding-exam.md) | 10 题答对 8 题，答错的两题是手册漏了 | 11 月版 |
+| [AI 要评判老板](./judge-the-boss.md) | 「你应该学会阻止我的想法」 | 11 月版 |
+| [「我在想」不等于「开干」](./discuss-is-not-execute.md) | 「我总感觉被你裹挟着」 | 11 月版 |
+
+### 5 月版及后续沉淀（历史）
+
+5 月以来写的，都还有用；11 月版是在它们基础上长出来的。
+
 | 方法论 | 一句话 | 状态 |
 |---|---|---|
 | [当最强 AI 被关停，我留下了它的工作手艺](./distill-model-working-style.md) | 模型会消失，但「怎么干活」能行为蒸馏下来 | ✅ |
@@ -30,9 +48,9 @@ icon: book
 | 方法论 | 预计 |
 |---|---|
 | 4 agent 端到端 + 5 件硬指标 playbook | 🔜 近期 |
-| verifier 独立核实的 prompt 模板 | 🔜 近期 |
+| [独立核实：已纳入两个 AI 分工](./two-ai-division.md) | ✅ 11 月版 |
 | 派 agent 8 件套白名单 | 🔜 排队中 |
-| Memory 4 件套分类沉淀 | 🔜 排队中 |
+| [共用记忆：已纳入两个 AI，一套规矩](./one-rulebook-two-ais.md) | ✅ 11 月版 |
 
 > 不抢热点 · 不装专家 · 只交付能复制的真东西。
 

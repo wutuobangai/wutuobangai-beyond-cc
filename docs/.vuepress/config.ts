@@ -33,7 +33,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Beyond CC · 乌托邦AI",
   description:
-    "30 岁不懂代码的普通人，用 AI 跑出超越官方的方法论。反向劝阻 hook、4 agent 端到端、竞品对标 5 层挖法、Memory 4 件套 —— 普通人用 AI 真正跑活的实战资料站。",
+    "一人公司（OPC）开源分享站 · 2026 年 5 月起公开记录。阿浩的一人公司工作记录：公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。",
 
   bundler: viteBundler(),
 
@@ -64,8 +64,8 @@ export default defineUserConfig({
         text: "一人公司架构",
         children: [
           { text: "架构全貌", link: "/architecture/" },
-          { text: "13 个 AI 岗位", link: "/architecture/agents.html" },
-          { text: "工具栈 · 100+ Skill / 29 MCP", link: "/architecture/stack.html" },
+          { text: "10 个 AI 角色 · 11 月版", link: "/architecture/agents.html" },
+          { text: "工具栈 · 40 Skill / 10 MCP · 11 月版", link: "/architecture/stack.html" },
         ],
       },
       { text: "踩坑记录", link: "/cases/" },
@@ -73,6 +73,7 @@ export default defineUserConfig({
       { text: "开源技能下载", link: "/skills/" },
       { text: "开源项目", link: "/projects/" },
       { text: "金句墙", link: "/quotes/" },
+      { text: "更新日志", link: "/changelog/" },
       {
         text: "我的其他网站",
         children: [
@@ -162,6 +163,15 @@ export default defineUserConfig({
           text: "方法论库",
           children: [
             "/methodology/README.md",
+            "/methodology/two-ai-division.md",
+            "/methodology/one-rulebook-two-ais.md",
+            "/methodology/red-lines-tiered-authorization.md",
+            "/methodology/lesson-index-and-pitfall-skills.md",
+            "/methodology/three-ledgers.md",
+            "/methodology/monitor-with-scripts-not-ai.md",
+            "/methodology/ai-onboarding-exam.md",
+            "/methodology/judge-the-boss.md",
+            "/methodology/discuss-is-not-execute.md",
             "/methodology/distill-model-working-style.md",
             "/methodology/reverse-pushback.md",
             "/methodology/chairman-mode.md",
