@@ -79,9 +79,10 @@ export default defineUserConfig({
       {
         text: "我的其他网站",
         children: [
-          { text: "AIGC 站（国内）", link: "https://wutuobangai.com" },
-          { text: "AI 工具站（海外）", link: "https://wutuobangai.top" },
-          { text: "课程站", link: "https://forms.wutuobangai.com" },
+          { text: "AIGC 站（国内）", link: "https://wutuobangai.com/hub.html?utm_source=cal&utm_medium=crosslink" },
+          { text: "AI 工具站（海外）", link: "https://wutuobangai.top/?utm_source=cal&utm_medium=crosslink" },
+          { text: "课程站", link: "https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" },
+          { text: "开源项目（GitHub）", link: "https://github.com/wutuobangai" },
         ],
       },
     ],
@@ -209,7 +210,7 @@ export default defineUserConfig({
 
     // 商业闭环钩子（codexguide 没有的超越点）
     footer:
-      '想系统学这套打法 → <a href="https://forms.wutuobangai.com" target="_blank">16 周陪跑课程</a> · 想直接用 → <a href="https://wutuobangai.com" target="_blank">工具站按积分用</a> · <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank">加微信领免费资料</a>',
+      '想系统学这套打法 → <a href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank">16 周陪跑课程</a> · 想直接用 → <a href="https://wutuobangai.com/hub.html?utm_source=cal&utm_medium=crosslink" target="_blank">工具站按积分用</a> · <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank">加微信领免费资料</a>',
     displayFooter: true,
     copyright: "MIT Licensed | Copyright © 2026 乌托邦AI",
 
