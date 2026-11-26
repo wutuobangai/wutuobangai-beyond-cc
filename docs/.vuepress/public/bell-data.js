@@ -1,5 +1,6 @@
 /* 资料站铃铛 · 更新列表（新的放最上面）。以后有更新只改这里，加一行即可。 */
 window.CAL_SITE_UPDATES = [
+  { date: "2026-11-26", title: "5 篇新文、3 项原文更新和两个开源库", summary: "PowerShell 与 Supabase 踩坑、视频文件管理、员工交活与断线接续；任务单、固定要求和 AI 分工同步更新。", link: "/changelog/" },
   { date: "2026-11-18", title: "11 月版上线：两个 AI，一套规矩", summary: "9 篇新方法论：两个 AI 分工、分级授权、监控用脚本不用 AI、AI 要评判老板……架构和工具栈换成现在的真实数字。", link: "/changelog/" },
   { date: "2026-11-18", title: "新文：AI 要评判老板的想法", summary: "「你应该学会阻止我的想法。」AI 怎么当参谋，而不是每句都说好。", link: "/methodology/judge-the-boss.html" },
   { date: "2026-11-18", title: "新文：监控交给脚本，别让 AI 熬夜", summary: "让 AI 盯了一夜，烧掉三成周额度之后定的规矩。", link: "/methodology/monitor-with-scripts-not-ai.html" },

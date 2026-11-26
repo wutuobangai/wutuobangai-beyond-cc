@@ -142,8 +142,8 @@ Claude Code（Anthropic 出的）和 Codex（OpenAI 出的），本质是**同�
 
 </div>
 
-> 🏆 **闯到最后**：这 6 关走完，你就从"会用 AI"迈进了「一个人指挥一群 AI」那条更深的路——那是另一段旅程（想深入 → [0→1 之路](/journey/) 和 [一人公司架构](/architecture/)；想有人带着少踩坑 → [16 周陪跑课程](https://forms.wutuobangai.com)）。
+> 🏆 **闯到最后**：这 6 关走完，你就从"会用 AI"迈进了「一个人指挥一群 AI」那条更深的路——那是另一段旅程（想深入 → [0→1 之路](/journey/) 和 [一人公司架构](/architecture/)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来）。
 
 ---
 
-*装好了，想直接用上更省事的 AI 工具 → [来 AIGC 站按积分用](https://wutuobangai.com)；想有人带着系统学、少踩坑 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*装好了，想直接用上更省事的 AI 工具 → [来 AIGC 站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

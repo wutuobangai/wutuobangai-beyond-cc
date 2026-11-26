@@ -219,4 +219,4 @@ icon: layers
 ---
 
 > **想看这套工具栈在真实业务里怎么跑？**
-> 上 [乌托邦 AI 工具站](https://wutuobangai.com) 看我们用它做出来的成品，或者加我微信，聊聊一个不懂代码的人怎么把 AI 用成员工。
+> 上 [乌托邦 AI 工具站](https://wutuobangai.com) 看我们用它做出来的成品，其他到 [会员站](https://wutuobangai.top) 的微信入口找服务台或阿浩。

@@ -49,4 +49,4 @@ date: 2026-05-31
 
 ---
 
-我不写代码,但我懂一件事：重复的东西越多,系统越脆。把它收成一份,改一次全站生效,这是我让一群 AI 帮我管十几个站点时反复用到的笨办法。想看更多这样的真实拆解,工具站在 [wutuobangai.com](https://wutuobangai.com);想从零跟着做一遍,16 周陪跑课在 [forms.wutuobangai.com](https://forms.wutuobangai.com)。
+我不写代码,但我懂一件事：重复的东西越多,系统越脆。把它收成一份,改一次全站生效,这是我让一群 AI 帮我管十几个站点时反复用到的笨办法。想看更多这样的真实拆解,工具站在 [wutuobangai.com](https://wutuobangai.com);[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。

@@ -69,4 +69,4 @@ VS Code（全名 Visual Studio Code）是**全世界最流行的免费代码编�
 
 ---
 
-*想直接用更省事的 AI → [AIGC 站按积分用](https://wutuobangai.com)；想系统学 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*想直接用更省事的 AI → [AIGC 站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

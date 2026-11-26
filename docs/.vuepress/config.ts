@@ -9,6 +9,8 @@ const pitfallSidebar = [
     children: [
       "/lessons/status-200-not-alive.md",
       "/lessons/dispatch-for-truth.md",
+      "/lessons/powershell-51-three-pitfalls.md",
+      "/lessons/supabase-deploy-workdir.md",
     ],
   },
   {
@@ -16,6 +18,7 @@ const pitfallSidebar = [
     collapsible: true,
     children: [
       "/cases/README.md",
+      "/cases/ai-video-disk-management.md",
       "/cases/dispatch-beats-guessing.md",
       "/cases/reuse-dead-assets.md",
       "/cases/verify-not-trust-selfreport.md",
@@ -167,6 +170,8 @@ export default defineUserConfig({
           children: [
             "/methodology/README.md",
             "/methodology/two-ai-division.md",
+            "/methodology/staff-handoff-three-parts.md",
+            "/methodology/minimal-resume-note.md",
             "/methodology/one-rulebook-two-ais.md",
             "/methodology/red-lines-tiered-authorization.md",
             "/methodology/lesson-index-and-pitfall-skills.md",
@@ -203,6 +208,9 @@ export default defineUserConfig({
           ],
         },
       ],
+      "/changelog/": [
+        { text: "更新日志", children: ["/changelog/README.md"] },
+      ],
       "/quotes/": [
         { text: "金句墙", children: ["/quotes/README.md"] },
       ],
@@ -210,7 +218,7 @@ export default defineUserConfig({
 
     // 商业闭环钩子（codexguide 没有的超越点）
     footer:
-      '想系统学这套打法 → <a href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank">16 周陪跑课程</a> · 想直接用 → <a href="https://wutuobangai.com/hub.html?utm_source=cal&utm_medium=crosslink" target="_blank">工具站按积分用</a> · <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank">加微信领免费资料</a>',
+      '在筹备七天以内的集训，带做生意的人把 AI 用起来 → <a href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank">AI 集训（筹备中）</a> · 想直接用 → <a href="https://wutuobangai.com/hub.html?utm_source=cal&utm_medium=crosslink" target="_blank">工具站按积分用</a> · <a href="https://wutuobangai.top/?utm_source=cal&utm_medium=crosslink" target="_blank">到会员站微信入口找服务台或阿浩</a>',
     displayFooter: true,
     copyright: "MIT Licensed | Copyright © 2026 乌托邦AI",
 

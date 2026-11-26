@@ -7,6 +7,13 @@ icon: clock-rotate-left
 
 这个站从 2026 年 5 月 30 日开始公开。每一版改了什么都记在这里，旧内容不删，标成历史留着。
 
+## 2026-11-26 · 交活模板与技术踩坑
+
+- 新增 5 篇：[PowerShell 5.1 三个坑](/lessons/powershell-51-three-pitfalls.html)、[AI 视频文件与系统盘](/cases/ai-video-disk-management.html)、[Supabase 部署工作目录](/lessons/supabase-deploy-workdir.html)、[给员工交活三件套](/methodology/staff-handoff-three-parts.html)、[AI 断线后的最小接续单](/methodology/minimal-resume-note.html)。
+- 更新 3 个主题：[给 AI 派活的任务单](/methodology/two-ai-division.html#给-ai-派活的任务单)并入原篇；[一页固定要求](/methodology/one-rulebook-two-ais.html#一页固定要求-当前进度另查)把长期边界和当前状态分开；[几个 AI 怎么分工](/methodology/two-ai-division.html)改为已经在用的分法，不列会员档位。
+- [开源项目](/projects/)加入 AI 垃圾体检和 Claude Code 收尾提醒两个库的介绍、链接与限制。
+- 根目录与栏目说明同步更新，课程说明统一为筹备集训；课程链接仍指向课程站，不增加报名或登记承诺。
+
 ## 2026-11-18 · 11 月版
 
 - 一句话定位：**一人公司（OPC）开源分享站**。公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。

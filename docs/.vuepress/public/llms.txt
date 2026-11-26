@@ -16,5 +16,5 @@
 ## 相关网站
 - [乌托邦 AI 国内站](https://wutuobangai.com/hub.html)：AI 生图、AI 视频与创作工具
 - [海外 AI 工具站](https://wutuobangai.top/)：海外 AI 工具购买指南与免费教程
-- [课程站](https://forms.wutuobangai.com/)：跟着阿浩学用 AI
+- [课程站](https://forms.wutuobangai.com/)：在筹备七天以内的集训，带做生意的人把 AI 用起来
 - [GitHub](https://github.com/wutuobangai)

@@ -54,4 +54,4 @@ date: 2026-05-31
 
 ---
 
-*我是个不懂代码的普通人，靠这些被坑出来的笨规矩，带着一群 AI 把公司跑了起来。想少摔这些跟头、把 AI 真正用到自己的事上 → [来工具站直接上手](https://wutuobangai.com)，或看看[16 周陪跑课](https://forms.wutuobangai.com)。*
+*我是个不懂代码的普通人，靠这些被坑出来的笨规矩，带着一群 AI 把公司跑了起来。想少摔这些跟头、把 AI 真正用到自己的事上 → [来工具站直接上手](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

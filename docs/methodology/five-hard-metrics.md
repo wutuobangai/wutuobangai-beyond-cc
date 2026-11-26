@@ -55,4 +55,4 @@ date: 2026-05-31
 
 ---
 
-我是阿浩，30 岁、不懂代码，从 0 到开公司用了 8 个月，靠一群 AI 协同岗位替我把活干完。这套五件硬指标，是我把"AI 自报完成"逼成"可核验完工"的底线。想看我用什么工具把这群 AI 跑起来，去 [wutuobangai.com](https://wutuobangai.com)；想跟着我 16 周从 0 搭起自己的 AI 系统，去 [forms.wutuobangai.com](https://forms.wutuobangai.com)。
+我是阿浩，30 岁、不懂代码，从 0 到开公司用了 8 个月，靠一群 AI 协同岗位替我把活干完。这套五件硬指标，是我把"AI 自报完成"逼成"可核验完工"的底线。想看我用什么工具把这群 AI 跑起来，去 [wutuobangai.com](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。

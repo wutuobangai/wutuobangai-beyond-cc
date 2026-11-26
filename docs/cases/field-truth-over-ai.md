@@ -55,4 +55,5 @@ AI 判断靠的是**概率**——它把眼前的事归进它见过最多的那�
 
 ---
 
-我是个不懂代码的普通人，靠的就是这条笨规矩：现场我说了算，AI 负责把我的观察算成结论。想用 AI 跑自己的事、少被它的自信带偏 → [来工具站直接上手](https://wutuobangai.com)，或从零跟着做一遍，16 周陪跑课在 [forms.wutuobangai.com](https://forms.wutuobangai.com)。
+
+我是个不懂代码的普通人，靠的就是这条笨规矩：现场我说了算，AI 负责把我的观察算成结论。想用 AI 跑自己的事、少被它的自信带偏 → [来工具站直接上手](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。

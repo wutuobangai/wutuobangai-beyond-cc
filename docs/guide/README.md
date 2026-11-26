@@ -72,11 +72,11 @@ hook 是给 Claude Code 装的，但**方法论谁都能拿走**。最简单的�
 2. [一人公司架构全貌](/architecture/) → [13 个 AI 岗位](/architecture/agents.html) → [工具栈](/architecture/stack.html)
 3. [方法论库](/methodology/) + [实战案例库](/cases/)：把架构落到每一步
 
-> 想要有人带着搭、少踩坑 → [16 周陪跑课程](https://forms.wutuobangai.com)
+> [AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。
 
 ---
 
 ## 想直接用上 AI 不折腾？
 
 - 🚀 [乌托邦AI 工具站](https://wutuobangai.com)：不用翻墙用海外顶级模型，人民币按积分用
-- 💬 加微信领免费资料包 + 进交流群（二维码见页脚）
+- 工具问题请在本仓库提 Issue；其他到 [会员站](https://wutuobangai.top) 的微信入口找服务台或阿浩。

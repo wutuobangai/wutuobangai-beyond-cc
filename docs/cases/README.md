@@ -20,12 +20,16 @@ date: 2026-05-31
 
 一个真实事故，从头到尾掰开揉碎讲透：当时发生了什么、错在哪、怎么救回来的、留下什么铁律。
 
+- [PowerShell 5.1 三个坑](/lessons/powershell-51-three-pitfalls.html)
+- [Supabase 部署传了旧代码](/lessons/supabase-deploy-workdir.html)
 - [200 不等于真活](/lessons/status-200-not-alive.html)
 - [派独立的人去拿真相](/lessons/dispatch-for-truth.html)
 
 **🛠️ 实战案例 · 照着做**
 
 一个具体打法，给你能直接抄的步骤：场景 → 怎么做 → 可复制清单。（见左侧「实战案例 · 照着做」分组，持续更新）
+
+- [AI 做视频把系统盘塞满，哪些该留？](/cases/ai-video-disk-management.html)
 
 ---
 

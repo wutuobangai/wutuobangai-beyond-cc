@@ -63,4 +63,4 @@ AI 订阅价格调得很勤，本文**故意不写死具体数字**（写了过�
 
 ---
 
-*想完全不折腾、直接按积分用 AI → [来 AIGC 站](https://wutuobangai.com)；想有人手把手带 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*想完全不折腾、直接按积分用 AI → [来 AIGC 站](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

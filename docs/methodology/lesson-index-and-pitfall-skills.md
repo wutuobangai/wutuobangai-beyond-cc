@@ -59,4 +59,5 @@ date: 2026-11-18
 ---
 
 *我不写代码，但正因如此，我更早学会了「人该坐哪、AI 该干啥」。想看这套主席台体系怎么落到工具上，去 [工具站](https://wutuobangai.com) 看看；*
-*想要有人手把手陪你把 AI 用起来，[16 周陪跑课](https://forms.wutuobangai.com) 在这里。*
+
+*[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

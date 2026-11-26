@@ -85,4 +85,4 @@ claude
 
 ---
 
-*装好了想直接用更省事的 AI → [来 AIGC 站按积分用](https://wutuobangai.com)；想有人带着系统学、少踩坑 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*装好了想直接用更省事的 AI → [来 AIGC 站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

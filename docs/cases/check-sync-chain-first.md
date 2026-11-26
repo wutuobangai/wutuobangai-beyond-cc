@@ -50,4 +50,4 @@ date: 2026-05-31
 
 ---
 
-*我是阿浩，一个 30 岁、不写代码的普通人，靠一群 AI 把公司跑起来。这类"看起来在修、其实在原地打转"的坑，我替你先踩过了。想看更多真实踩坑记录，来 [AI 工具站](https://wutuobangai.com) 逛逛，或了解我的 16 周陪跑课 [forms.wutuobangai.com](https://forms.wutuobangai.com)。*
+*我是阿浩，一个 30 岁、不写代码的普通人，靠一群 AI 把公司跑起来。这类"看起来在修、其实在原地打转"的坑，我替你先踩过了。想看更多真实踩坑记录，来 [AI 工具站](https://wutuobangai.com) 逛逛；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

@@ -87,4 +87,4 @@ MCP 你可以理解成**给 AI 装插件**——就像手机装 App，装一个�
 
 ---
 
-*想直接用更省事的 AI → [AIGC 站按积分用](https://wutuobangai.com)；想系统学 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*想直接用更省事的 AI → [AIGC 站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

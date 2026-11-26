@@ -1,5 +1,8 @@
 # wutuobangai-beyond-cc
 
+> 阿浩用 AI 做事的公开记录，先看[实战资料站](https://cal.wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)在筹备七天以内的集训，带做生意的人把 AI 用起来。
+
+
 > 一人公司（OPC）开源分享站 · 2026 年 5 月起公开记录
 >
 > 阿浩的一人公司工作记录：公开我怎么给 AI 分工、怎么验收，以及做错以后怎么改。
@@ -8,7 +11,7 @@
 
 ## 11 月版现在怎么干
 
-- [两个 AI 分工](https://cal.wutuobangai.com/methodology/two-ai-division.html)：一个干活、一个验活：Claude 审核上线，Codex 按单施工。
+- [几个 AI 怎么分工与任务单](https://cal.wutuobangai.com/methodology/two-ai-division.html)：代码交 Claude 执行，GPT/Codex 做独立审查与可视化操作，Grok Bot 查资料，Gemini 做自媒体内容。
 - [两个 AI，一套规矩](https://cal.wutuobangai.com/methodology/one-rulebook-two-ais.html)：共用开工须知、记忆库和教训索引，减少两边口径打架。
 - [分级授权红线](https://cal.wutuobangai.com/methodology/red-lines-tiered-authorization.html)：查资料、改本地文件、对外操作，分别确认边界。
 - [教训索引与踩坑技能](https://cal.wutuobangai.com/methodology/lesson-index-and-pitfall-skills.html)：索引负责找，正文保留证据，技能提醒该怎么做。

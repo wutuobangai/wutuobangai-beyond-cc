@@ -86,4 +86,4 @@ date: 2026-05-31
 
 ---
 
-*我是个 30 岁不懂代码的普通人，靠这些自己焊出来的小工具，把一家公司交给了一群 AI 在跑。想直接用更省事的 → [来 AIGC 站按积分用](https://wutuobangai.com)；想系统学 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*我是个 30 岁不懂代码的普通人，靠这些自己焊出来的小工具，把一家公司交给了一群 AI 在跑。想直接用更省事的 → [来 AIGC 站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- 修改记录：2026-07-04 · Codex · 新增 Fuck Claude 开源项目入口。 -->
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
@@ -384,6 +383,19 @@ a.stat:hover .lab b{color:var(--accent)}
 }
 .old-picks summary{cursor:pointer;font-size:14px;color:var(--ink-soft);padding:10px 0;font-family:var(--mono)}
 .old-picks summary:hover{color:var(--accent)}
+
+#business .cards2{margin-top:36px}
+.business-cards .bigcard{min-height:290px}
+.business-cards h3{font-size:24px;overflow-wrap:anywhere}
+.story-entry{display:block;margin-top:26px;padding:28px 32px;border:1px solid var(--hair-strong);border-radius:20px;background:var(--paper-warm);transition:border-color .25s}
+.story-entry:hover{border-color:var(--accent)}
+.story-entry .kicker{margin-bottom:12px}
+.story-entry h3{font-family:var(--serif);font-size:clamp(21px,2.5vw,28px);font-weight:600;line-height:1.5;margin-bottom:18px}
+.story-entry .go{color:var(--accent);font-size:15px}
+@media(max-width:680px){.story-entry{padding:24px}.business-cards .bigcard{min-height:240px;padding:28px}}
+
+.business-cards .idx{margin-bottom:18px}
+.business-cards .go{margin-top:auto;padding-top:24px}
 </style>
 </head>
 <body>
@@ -459,6 +471,23 @@ a.stat:hover .lab b{color:var(--accent)}
   <div class="scroll-hint"><span>SCROLL</span><span class="ln"></span></div>
 </main>
 
+<section class="band" id="business">
+  <div class="wrap">
+    <div class="kicker">阿浩 · 乌托邦AI</div>
+    <h2 class="sec-title" style="max-width:none">我们现在做的三件事</h2>
+<div class="cards2 business-cards">
+<a class="bigcard" href="https://wutuobangai.com"><span class="idx">01</span><h3>AI 中转站＋直接使用</h3><p>接入 AI 中转站，或直接在网页上用 AI。</p><span class="go">去使用 <span class="arr">→</span></span></a>
+<a class="bigcard" href="https://wutuobangai.top"><span class="idx">02</span><h3>AI 会员开通</h3><p>帮你开通 ChatGPT、Claude、Gemini、Grok 会员。</p><span class="go">看会员开通 <span class="arr">→</span></span></a>
+<a class="bigcard" href="https://forms.wutuobangai.com"><span class="idx">03</span><h3>AI 课程</h3><p>在筹备七天以内的集训，带做生意的人把 AI 用起来。</p><span class="go">了解筹备中的课程 <span class="arr">→</span></span></a>
+</div>
+    <a class="story-entry" href="/projects/">
+      <span class="kicker">免费拿去用</span>
+      <h3>我们自己每天在用的小工具：AI 垃圾体检、Claude Code 提醒小工具</h3>
+      <span class="go">看开源项目 <span aria-hidden="true">→</span></span>
+    </a>
+  </div>
+</section>
+
 <!-- ===================== STATS ===================== -->
 <section class="band stats-band" id="stats">
   <div class="wrap">
@@ -510,7 +539,7 @@ a.stat:hover .lab b{color:var(--accent)}
         <span class="idx">02 / METHODOLOGY</span>
         <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><circle cx="5" cy="5" r="2"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M9.6 9.6L6.2 6.2M14.4 9.6l3.4-3.4M9.6 14.4l-3.4 3.4M14.4 14.4l3.4 3.4"/></svg></span>
         <h3>读方法论</h3>
-        <p>11 月版：两个 AI 怎么分工、一套规矩怎么共用、授权边界怎么守、做完怎么验。9 篇新记录，把这半年的改法接起来。</p>
+        <p>11-26 更新：给 AI 派活的任务单、员工交活三件套、断线接续单，以及一页固定要求。拿模板回去填就能用。</p>
         <span class="go">读架构 <span class="arr">→</span></span>
       </a>
 
@@ -518,7 +547,7 @@ a.stat:hover .lab b{color:var(--accent)}
         <span class="idx">03 / OPEN SOURCE</span>
         <span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M8 9l-4 3 4 3M16 9l4 3-4 3M14 5l-4 14"/></svg></span>
         <h3>玩开源项目</h3>
-        <p>Fuck Claude：真实扫描浏览器可见环境信号，带逐项动画、声音、手机适配和匿名完成人数计数。源码与线上演示一起公开。</p>
+        <p>浏览器环境扫描、AI 垃圾体检、Claude Code 收尾提醒。介绍、源码入口和未验边界放在同一页。</p>
         <span class="go">打开项目 <span class="arr">→</span></span>
       </a>
     </div>
@@ -535,8 +564,8 @@ a.stat:hover .lab b{color:var(--accent)}
       <a class="lesson reveal" href="/methodology/two-ai-division.html">
         <span class="no">01</span>
         <div class="body">
-          <h4>两个 AI 分工</h4>
-          <p>干活的 AI 不验自己的活。Claude 审核上线，Codex 按单施工。</p>
+          <h4>几个 AI 怎么分工</h4>
+          <p>按代码、审查、联网和创作划责任。原篇也补了可复制的任务单。</p>
           <span class="tag">11 月版</span>
         </div>
       </a>
@@ -654,8 +683,8 @@ a.stat:hover .lab b{color:var(--accent)}
       <p class="reveal">这套方法背后的 AI 工具，已经做成了按积分付费的工具站。不会配环境也能开始。</p>
       <div class="cta-row reveal">
         <a class="btn btn-primary" href="https://wutuobangai.com/hub.html?utm_source=cal&utm_medium=crosslink">去工具站，按积分用 <span class="arr">→</span></a>
-        <a class="btn btn-ghost" href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">加微信，领免费资料</a>
-        <a class="btn btn-text" href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">或报 16 周陪跑课 <span class="arr">→</span></a>
+        <a class="btn btn-ghost" href="https://wutuobangai.top/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">到会员站找服务台或阿浩</a>
+        <a class="btn btn-text" href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">了解筹备中的 AI 集训 <span class="arr">→</span></a>
       </div>
     </div>
 
@@ -678,15 +707,15 @@ a.stat:hover .lab b{color:var(--accent)}
       <div class="footcol">
         <h5>用起来</h5>
         <a href="https://wutuobangai.com/hub.html?utm_source=cal&utm_medium=crosslink">AI 工具站</a>
-        <a href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">16 周陪跑课程</a>
-        <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">领免费资料</a>
-        <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">加微信交流</a>
+        <a href="https://forms.wutuobangai.com/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">AI 集训（筹备中）</a>
+        <a href="https://wutuobangai.top/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">服务台入口</a>
+        <a href="https://wutuobangai.top/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">微信入口（会员站）</a>
       </div>
       <div class="footcol">
         <h5>关于</h5>
         <a href="https://github.com/wutuobangai/wutuobangai-beyond-cc">GitHub 仓库</a>
         <a href="/changelog/">更新日志</a>
-        <a href="https://work.weixin.qq.com/kfid/kfc5a9b5eb24d51c342" target="_blank" rel="noopener">联系阿浩</a>
+        <a href="https://wutuobangai.top/?utm_source=cal&utm_medium=crosslink" target="_blank" rel="noopener">联系阿浩</a>
       </div>
     </div>
 

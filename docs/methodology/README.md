@@ -9,11 +9,18 @@ icon: book
 
 ## 已上线
 
+### 11-26：交活与接续
+
+- [给员工交活三件套](./staff-handoff-three-parts.md)：背景说明、材料、给员工 AI 的带做指令。
+- [AI 断线后的最小接续单](./minimal-resume-note.md)：先核文件、进程和结果，再继续。
+- [给 AI 派活的任务单](./two-ai-division.md#给-ai-派活的任务单)：在分工原篇扩充范围、禁区、验法、失败与断线处理。
+- [一页固定要求](./one-rulebook-two-ais.md#一页固定要求-当前进度另查)：规矩管边界，当前状态另查。
+
 ### 11 月版
 
 | 方法论 | 一句话 | 版本 |
 |---|---|---|
-| [两个 AI 分工](./two-ai-division.md) | 一个干活、一个验活：Claude 审核上线，Codex 按单施工 | 11 月版 |
+| [几个 AI 怎么分工](./two-ai-division.md) | 按代码执行、独立审查、联网查证和自媒体创作划责任 | 11 月版 |
 | [一份规矩两个 AI 共用](./one-rulebook-two-ais.md) | 规矩只写一份，两个 AI 从同一个地方读 | 11 月版 |
 | [分级授权](./red-lines-tiered-authorization.md) | 能撤回的放手做到底，撤不回的必须我点头 | 11 月版 |
 | [教训索引与踩坑技能](./lesson-index-and-pitfall-skills.md) | 教训别让 AI 全背：编号找路，碰到才读 | 11 月版 |
@@ -59,5 +66,5 @@ icon: book
 ## 想直接用上 AI 不折腾？
 
 - 🚀 [乌托邦AI 工具站](https://wutuobangai.com)：不用翻墙用海外顶级模型，人民币按积分用
-- 🎓 想系统学这套打法 → [16 周陪跑课程](https://forms.wutuobangai.com)
-- 💬 加微信领免费资料包 + 进交流群（二维码见页脚）
+- 🎓 [AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。
+- 工具问题请在本仓库提 Issue；其他到 [会员站](https://wutuobangai.top) 的微信入口找服务台或阿浩。

@@ -11,6 +11,9 @@ icon: lightbulb
 
 ## 已上线
 
+- [PowerShell 5.1 三个坑](./powershell-51-three-pitfalls.md)：参数引号、序列化与中文编码，先核实际执行版本。
+- [Supabase 部署传了旧代码](./supabase-deploy-workdir.md)：先核项目根、工作目录和实际入口。
+
 - [状态码 200，不代表你的功能正常](./status-200-not-alive.md) —— 后台"正常"、接口 200 全是假象，排查第一步永远是拉数据库真值。
 - [卡住超过 20 分钟，就派一个独立角色去拿真相](./dispatch-for-truth.md) —— 一个人越查越偏，派个不带成见的独立角色，几分钟见真凶。
 
@@ -26,4 +29,4 @@ icon: lightbulb
 
 ---
 
-*想少踩这些坑、直接用现成的 AI 工具 → [工具站按积分用](https://wutuobangai.com)；想系统学这套打法 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*想少踩这些坑、直接用现成的 AI 工具 → [工具站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*

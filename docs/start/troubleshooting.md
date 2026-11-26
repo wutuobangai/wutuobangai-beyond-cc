@@ -101,4 +101,4 @@ AI 出问题，**九成是小事**——不是你电脑坏了，也不是你笨�
 
 ---
 
-*想直接用更省事的 AI → [AIGC 站按积分用](https://wutuobangai.com)；想系统学 → [16 周陪跑课程](https://forms.wutuobangai.com)。*
+*想直接用更省事的 AI → [AIGC 站按积分用](https://wutuobangai.com)；[AI 课程](https://forms.wutuobangai.com)：在筹备七天以内的集训，带做生意的人把 AI 用起来。*
